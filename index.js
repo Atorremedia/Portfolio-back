@@ -9,7 +9,7 @@ app.disable('x-powered-by')
 
 // app.use(express.json())
 
-app.get('/blog-article-cards', (req, res) => {
+app.get('/posts', (req, res) => {
     res.json(articleCards)
   })
 
