@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-back",
+  "version": "1.0.0",
+  "description": "Backend for August Ollé's blog and portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "run dev"
+  },
+  "keywords": [
+    "August",
+    "Ollé",
+    "frontend",
+    "developer",
+    "programmer",
+    "web",
+    "developer"
+  ],
+  "author": "August Ollé",
+  "license": "AAL",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
