@@ -1,6 +1,6 @@
 const express = require ('express')
 const articleCards = require('./data/articleCards.json')
-const article000 = require('./data/article000.js')
+const articles = require('./data/articles.js')
 
 const PORT = process.env.PORT ?? 1234
 
@@ -14,7 +14,15 @@ app.get('/blog-article-cards', (req, res) => {
   })
 
 app.get('/article000', (req, res) => {
-    res.send(article000)
+    res.send(articles.article000)
+  })
+
+app.get('/article001', (req, res) => {
+    res.send(articles.article001)
+  })
+
+app.get('/article002', (req, res) => {
+    res.send(articles.article002)
   })
 
   app.use((req, res) => {
