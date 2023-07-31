@@ -1,0 +1,48 @@
+<article>
+    <div className={`${styles.buttonContainer}`}>
+        <button onClick={handleClick} className={`${styles.backButton}`} >Back to Recent Posts</button>
+    </div>
+    <div className={`${styles.articleContainer}`}>
+        <h2 className={`${styles.articleTitle}`}>Javascript, a versatile, powerful, language</h2>
+        <h3 className={`${styles.articleSectionTitle}`}>What is Javascript?</h3>
+        <p className={`${styles.articleText}`}>JavaScript is a dynamic, high-level programming language that is widely used for creating web applications. It was created as a client-side language, meaning that it runs on the user's web browser rather than on the server side, although it can be used on the server with libraries like Node. JavaScript is a versatile language that can be used for a wide range of applications, from simple animations to complex web applications.  JavaScript has become an essential tool for web developers, and it is not surprising that it is one of the most popular programming languages in the world.
+        </p>
+        <p className={`${styles.articleText}`}>JavaScript was developed by Brendan Eich in just ten days in 1995 while he was working at Netscape Communications Corporation. The language was initially called Mocha, then changed to LiveScript before finally being named JavaScript. Since its inception, the language has undergone numerous updates and improvements, making it a robust and versatile tool for developers.
+        </p>
+        <p className={`${styles.articleText}`}>One of the significant benefits of JavaScript is its ability to enhance the interactivity of a website. JavaScript enables developers to add interactive features such as animations, dynamic menus, pop-ups, and more to web pages. It also allows for dynamic data input and processing, which is useful for applications such as e-commerce sites and social media platforms. Another key advantage of JavaScript is its ease of use. It is a lightweight language that is easy to learn and read, making it a great choice for beginners. Moreover, JavaScript is compatible with other web technologies like HTML and CSS, making it easy for developers to integrate it into their projects.
+        </p>
+        <p className={`${styles.articleText}`}>JavaScript has several frameworks and libraries that make development even easier. Some of the most popular frameworks include Angular, React, and Vue.js, which provide developers with pre-written code and templates to speed up development. Libraries like jQuery provide useful functions and tools for developers to use in their projects.
+        </p>
+        <h3 className={`${styles.articleSectionTitle}`}>Main Javascript features</h3>
+        <h4 className={`${styles.articleSectionSubtitle}`}>Data types</h4>
+        <p className={`${styles.articleText}`}>JavaScript has several built-in data types, including strings, numbers, booleans, null, undefined, and objects. Strings are used to represent text, while numbers are used to represent numeric values. Booleans are used to represent true/false values, while null and undefined are used to represent non-existent or empty values. Objects are used to represent complex data structures, such as arrays, functions, and objects. JavaScript is a dynamically-typed programming language, which means that variable types are determined at runtime rather than during compilation. In JavaScript, weak typing allows variables to be implicitly coerced from one type to another, which can sometimes result in unexpected behavior or errors.
+        </p>
+        <p className={`${styles.articleText}`}>For example, in JavaScript, the plus operator (+) can be used to concatenate strings or add numbers together. If one operand is a string and the other is a number, JavaScript will attempt to convert the string to a number and perform the addition. This can lead to confusing results if the string cannot be converted to a valid number.
+        </p>
+        <p className={`${styles.articleText}`}>While weak typing can make JavaScript more flexible and easier to write, it also requires developers to be careful and mindful of the potential pitfalls that come with implicit type coercion. Typescript, a Javascript superset, can be used to add strong typing to Javascript code.
+        </p>
+        <h4 className={`${styles.articleSectionSubtitle}`}>Functions</h4>
+        <p className={`${styles.articleText}`}>Functions are an essential part of JavaScript programming. A function is a block of code that performs a specific task. Functions can be defined with the function keyword and can accept arguments, which are used to pass data to the function. Functions can also return values, which are used to pass data back to the calling code. Arrow functions are a newer feature in JavaScript that provide a concise syntax for defining functions. They are written using the arrow operator and do not require the function keyword. They are often used in situations where a short, one-line function is needed. 
+        </p>
+        <h4 className={`${styles.articleSectionSubtitle}`}>Objects</h4>
+        <p className={`${styles.articleText}`}>Objects are one of the most important features of JavaScript programming. An object is a collection of key-value pairs that represent a data structure. Objects can be used to represent complex data structures, such as arrays and functions. Here is an example of an object that represents a person:
+        </p>
+        <code className={`${styles.code}`}>
+            const person = &#123;<br/>
+            firstName: "John",<br/>
+            lastName: "Doe",<br/>
+            age: 30,<br/>
+            fullName: function() &#123;<br/>
+            return this.firstName + " " + this.lastName;<br/>
+            &#125;<br/>
+            &#125;<br/>
+        </code>
+        <h3 className={`${styles.articleSectionTitle}`}>Conclusion</h3>
+        <p className={`${styles.articleText}`}>JavaScript is a powerful and versatile language that is widely used for creating web applications. With its built-in data types, functions, arrow functions, and objects, JavaScript provides developers with a flexible and powerful toolset for building complex web applications. As JavaScript continues to evolve, new features and enhancements will undoubtedly be added to the language, making it an even more powerful and essential tool for web development.
+        </p>
+
+    </div>
+    <div className={`${styles.buttonContainer}`}>
+        <button onClick={handleClick} className={`${styles.backButton}`} >Back to Recent Posts</button>
+    </div>
+</article>
