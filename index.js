@@ -1,5 +1,6 @@
 const express = require ('express')
 const articleCards = require('./data/articleCards.json')
+const article000 = require('./data/article000.js')
 
 const PORT = process.env.PORT ?? 1234
 
@@ -10,6 +11,10 @@ app.disable('x-powered-by')
 
 app.get('/blog-article-cards', (req, res) => {
     res.json(articleCards)
+  })
+
+app.get('/article000', (req, res) => {
+    res.send(article000)
   })
 
   app.use((req, res) => {
